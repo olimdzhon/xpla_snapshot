@@ -21,7 +21,7 @@ sudo service xpla stop
 ## Back up priv_validator_state.json
 
 > [!WARNING] 
-> `СОХРАНИТЕ БЭКАП priv_validator_state.json ПЕРЕД ИСПОЛЬЗОВАНИЕМ СНАПШОТА`!
+> `СОХРАНИТЕ БЭКАП priv_validator_state.json ПЕРЕД ИСПОЛЬЗОВАНИЕМ СНАПШОТА!`
 
 ```
 cp ~/.xpla/data/priv_validator_state.json  ~/.xpla/priv_validator_state.json
@@ -45,7 +45,7 @@ lz4 -c -d xpla_10450690.lz4  | tar -x -C $HOME/.xpla
 ## Replace with the backed-up priv_validator_state.json
 
 > [!WARNING] 
-> `ВОССТАНОВИТЕ СВОЙ priv_validator_state.json ИЗ БЭКАП ПОСЛЕ ИСПОЛЬЗОВАНИЯ СНАПШОТА`!
+> `ВОССТАНОВИТЕ СВОЙ priv_validator_state.json ИЗ БЭКАП ПОСЛЕ ИСПОЛЬЗОВАНИЯ СНАПШОТА!`
 
 ```
 cp ~/.xpla/priv_validator_state.json  ~/.xpla/data/priv_validator_state.json
