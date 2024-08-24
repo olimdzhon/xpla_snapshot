@@ -32,7 +32,8 @@ xplad tendermint unsafe-reset-all --home $HOME/.xpla --keep-addr-book
 
 ## Decompress the snapshot to your database location
 
-> [!WARNING] > `КОМАНДА ВЫПОЛНЯЕТСЯ ДОЛГО ДОЖДИТЕСЬ ПОЛНОЙ РАСПАКОВКИ`!
+> [!WARNING] 
+> `КОМАНДА ВЫПОЛНЯЕТСЯ ДОЛГО ДОЖДИТЕСЬ ПОЛНОЙ РАСПАКОВКИ`!
 
 ```
 lz4 -c -d xpla_10449078.lz4  | tar -x -C $HOME/.xpla
