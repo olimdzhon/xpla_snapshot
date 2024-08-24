@@ -27,7 +27,7 @@ cp ~/.xpla/data/priv_validator_state.json  ~/.xpla/priv_validator_state.json
 ## Reset node DB
 
 ```
-xplad tendermint unsafe-reset-all --home $HOME/.xpla --keep-addr-book
+xpla tendermint unsafe-reset-all --home $HOME/.xpla --keep-addr-book
 ```
 
 ## Decompress the snapshot to your database location
@@ -48,7 +48,7 @@ cp ~/.xpla/priv_validator_state.json  ~/.xpla/data/priv_validator_state.json
 ## Restart XPLA & Logs
 
 ```
-sudo service xplad restart && sudo journalctl -u xplad -f --output cat
+sudo service xpla restart && sudo journalctl -u xpla -f --output cat
 ```
 
 ## Sync state
