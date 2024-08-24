@@ -9,7 +9,7 @@ sudo apt install lz4
 ## Download the snapshot
 
 ```
-wget -O xpla_10449078.tar.lz4 https://www.dropbox.com/scl/fi/3ynu2gzynd2flf2zh1vc0/xpla_10450690.lz4?rlkey=hap224eeosgjqtgkl3i65m590&st=zdd72c4a&dl=0 --inet4-only
+wget -O xpla_10449078.tar.lz4 https://www.dropbox.com/scl/fi/3ynu2gzynd2flf2zh1vc0/xpla_10450690.lz4
 ```
 
 ## Stop Xpla
