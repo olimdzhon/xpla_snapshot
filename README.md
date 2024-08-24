@@ -36,7 +36,7 @@ xpla tendermint unsafe-reset-all --home $HOME/.xpla --keep-addr-book
 > `КОМАНДА ВЫПОЛНЯЕТСЯ ДОЛГО ДОЖДИТЕСЬ ПОЛНОЙ РАСПАКОВКИ`!
 
 ```
-lz4 -c -d xpla_10449078.lz4  | tar -x -C $HOME/.xpla
+lz4 -c -d xpla_10450690.lz4  | tar -x -C $HOME/.xpla
 ```
 
 ## Replace with the backed-up priv_validator_state.json
